@@ -16,6 +16,7 @@ function TransferList() {
       }
       fetchData();
     },[]);
+    // eslint-disable-next-line no-unused-vars
     const { data, isPending, error } = useFetch('https://team-el-gazoly-bank-system-main-k3vbm4kpjq-wm.a.run.app/api/transfer/'+'table')
     
 
